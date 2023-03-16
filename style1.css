@@ -1,0 +1,65 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    
+}
+
+.gallery img {
+	width: 100%;
+	height: 300px;
+	margin: 10px;
+	border: 2px solid #ccc;
+	transition: border-color 0.3s ease-in-out;
+	align-items: center;
+	justify-content: center;
+    
+    
+}
+
+.gallery img:hover {
+	border-color: rgb(167, 35, 6);
+    
+}
+
+.ds{
+    background-image: url(https://i.pinimg.com/564x/79/3e/66/793e66f0fcef476ddc29c3b339ea25e7.jpg);
+}
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+    display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+}
+
+nav li a:hover {
+	background-color: #555;
+}
+.ds{
+    background-image: url(https://i.pinimg.com/564x/79/3e/66/793e66f0fcef476ddc29c3b339ea25e7.jpg);
+}
+h1{
+	font-size: 24px;
+			margin: 0;
+			opacity: 0;
+			animation: fade-in 2s ease-out forwards;
+}

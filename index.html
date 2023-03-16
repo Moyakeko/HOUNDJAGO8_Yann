@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ma page d'accueil</title>
+	<style>
+nav {
+    background-color: #2b2a2a;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+    display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+}
+
+nav li a:hover {
+	background-color: #555;
+}
+#video-background {
+	width: 100%;
+	height: 89%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 20%;
+  z-index: -1;
+}
+.ds{
+    background-image: url(https://i.pinimg.com/564x/79/3e/66/793e66f0fcef476ddc29c3b339ea25e7.jpg);
+}
+
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			
+		}
+
+		header {
+			background-color: #2b2a2a;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 48px;
+			margin: 0;
+		}
+
+		.intro {
+			margin-top: 50px;
+			text-align: center;
+		}
+
+		.intro h2{
+			font-size: 24px;
+			margin: 0;
+			opacity: 0;
+			animation: fade-in 2s ease-out forwards;
+		}
+        h2{
+            color: #ffffff;
+        }
+        h1{
+            background-color: #2b2a2a;
+        }
+
+		@keyframes fade-in {
+			from {
+				opacity: 0;
+				transform: translateY(50px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+            
+		}
+	</style>
+</head>
+<body class="ds">
+    <div >
+        <nav>
+            <ul>
+				<li id="us"><a href="index.html">Accueil</a></li>
+				<li id="us"><a href="TP1.html">ESGIS</a></li>
+				<li id="us"><a href="T1.html">Galerie</a></li>
+				<li id="us"><a href="T4.html">À propos</a></li>
+			</ul>
+        </nav>
+    </div> 
+	
+	<video autoplay muted loop id="video-background">
+		<source src="nobody.mp4" type="video/mp4">
+	</video>
+		
+	<header>
+		<h1>Ma page d'accueil</h1>
+	</header>
+	<div class="intro">
+		<p><h2>Bienvenue sur notre site web</h2></p>
+	</div>
+	
+</body>
+</html>
